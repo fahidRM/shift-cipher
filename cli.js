@@ -74,7 +74,9 @@ meow(`
                 
     `, {
     alias: {
-        h: 'help'
+        h: 'help',
+        v: 'version'
+
     }
 });
 
