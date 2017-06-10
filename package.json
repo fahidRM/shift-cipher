@@ -1,0 +1,36 @@
+{
+  "name": "shift_cipher",
+  "version": "1.0.0",
+  "description": "Module for encrypting and decrypting using a shift cipher. Using either the default or an external word list, it can decode a cipher text that was encrpted using shift cipher provided the right symbol map has been chosen.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahidRM/shift-cipher.git"
+  },
+  "keywords": [
+    "encyption",
+    "decryption",
+    "fun-app",
+    "basic",
+    "js"
+  ],
+  "author": "fahidrm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahidRM/shift-cipher/issues"
+  },
+  "homepage": "https://github.com/fahidRM/shift-cipher#readme",
+  "dependencies": {
+    "fast-csv": "^2.4.0",
+    "fs": "0.0.1-security",
+    "meow": "^3.7.0",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7"
+  }
+}
